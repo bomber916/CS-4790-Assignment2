@@ -53,7 +53,7 @@ namespace CS_4790_Assignment_1
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Inventory}/{action=Index}/{id?}");
             });
         }
     }
