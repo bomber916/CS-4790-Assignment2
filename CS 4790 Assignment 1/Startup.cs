@@ -8,7 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace CS_4790_Assignment_1
+namespace CS_4790_Assignment_2
 {
     public class Startup
     {

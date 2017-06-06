@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 
-namespace CS_4790_Assignment_1
+namespace CS_4790_Assignment_2
 {
     public class Program
     {

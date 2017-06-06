@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using CS_4790_Assignment_1.Models;
+using CS_4790_Assignment_2.Models;
 
-namespace CS_4790_Assignment_1.Controllers
+namespace CS_4790_Assignment_2.Controllers
 {
     public class InventoryController : Controller
     {
@@ -28,13 +28,19 @@ namespace CS_4790_Assignment_1.Controllers
         /// Builds an inventory item and adds it to the repository
         /// </summary>
         [HttpPost]
-        public ViewResult Create(InventoryItem item)
+        public RedirectToActionResult Create(InventoryItem item)
         {
             if (item != null)
             {
                 Repository.AddInventoryItem(item);
             }
-            return View(item);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public ViewResult About()
+        {
+            return View();
         }
     }
 }

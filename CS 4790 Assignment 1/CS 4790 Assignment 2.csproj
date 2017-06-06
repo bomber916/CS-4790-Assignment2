@@ -9,6 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\Brylie.jpg" />
+    <Content Include="wwwroot\images\Cat1.jpg" />
+    <Content Include="wwwroot\images\Jared.jpg" />
     <Content Include="wwwroot\lib\bootstrap\dist\fonts\bootstrap-theme.css" />
     <Content Include="wwwroot\lib\bootstrap\dist\fonts\bootstrap-theme.css.map" />
     <Content Include="wwwroot\lib\bootstrap\dist\fonts\bootstrap-theme.min.css" />

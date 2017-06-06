@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CS_4790_Assignment_1.Controllers
+namespace CS_4790_Assignment_2.Controllers
 {
     public class HomeController : Controller
     {
